@@ -1,10 +1,11 @@
 # brittnia11
-cybersecurity Incident Reports
+Cybersecurity Incident Reports
 
 # Table of contents
 
 1. [Cybersecurity incident report network traffic analysis](#one)
 2. [Analyze network attacks using Wireshark](#two)
+3. [Apply OS hardening techniques](#three)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -47,7 +48,7 @@ In the case of a SYN flood attack, a malicious actor will send a large number of
 The logs indicate that the web server has become overwhelmed and is unable to process the visitors’ SYN requests. The server is unable to open a new connection to new visitors who receive a connection timeout message.
 
 -------
-
+#   <a name="two">
 
 
 
