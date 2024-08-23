@@ -4,7 +4,7 @@ cybersecurity Incident Reports
 # Table of contents
 
 1. [Cybersecurity incident report network traffic analysis](#one)
-2. [Analyze network attacks using Wireshark] (#two)
+2. [Analyze network attacks using Wireshark](#two)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
