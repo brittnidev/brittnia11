@@ -6,6 +6,7 @@ Cybersecurity Incident Reports
 1. [Cybersecurity incident report network traffic analysis](#one)
 2. [Analyze network attacks using Wireshark](#two)
 3. [Apply OS hardening techniques](#three)
+4. [Analysis of network hardening](#four)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -68,8 +69,21 @@ One security measure the team plans to implement to protect against brute force 
 
 2FA requires authentication via a password and also by confirming a one-time passcode (OTP) sent to either their email or phone. Once the user confirms their identity through their login credentials and the OTP, they will gain access to the system. Any malicious actor that attempts a brute force attack will not likely gain access to the system because it requires additional authentication. 
 
+-------
+# Analysis of network hardening]<a name="four">
+You are a security analyst working for a social media organization. The organization recently experienced a major data breach, which compromised the safety of their customers’ personal information, such as names and addresses. Your organization wants to implement strong network hardening practices that can be performed consistently to prevent attacks and breaches in the future. 
 
+# Part 1: Select up to three hardening tools and methods to implement (https://s.craft.me/3eTPLYSptlgdAx)
+1. Implementing multi-factor authentication (MFA)
+2. Setting and enforcing strong password policies
+3. Performing firewall maintenance regularly
 
+MFA requires users to use more than one way to identify and verify their credentials before accessing an application. Some MFA methods include fingerprint scans, ID cards, pin numbers, and passwords.
 
+Password policies can be refined to include rules regarding password length, a list of acceptable characters, and a disclaimer to discourage password sharing. They can also include rules surrounding unsuccessful login attempts, such as the user loses access to the network after five unsuccessful attempts. Firewall maintenance entails checking and updating security configurations regularly to stay ahead of potential threats.
+# Part 2: Explain your recommendations
+Implementing multi-factor authentication (MFA) enhances security by requiring more than just a password for access. This additional layer makes it harder for malicious actors to breach a network through brute force or similar attacks, as they must overcome multiple authentication methods. MFA also discourages password sharing, since anyone receiving a shared password would still need the extra authentication, making such sharing less effective.
 
+Establishing a robust password policy is crucial for strengthening network security. Measures like locking accounts after a specific number of failed login attempts can thwart brute force attacks. Increasing password complexity, mandating regular updates, and prohibiting password reuse further hinder unauthorized access.
 
+Regular maintenance of firewalls is essential. Network administrators should ensure that firewall rules align with current standards for permitted and restricted traffic. Any suspicious traffic sources should be added to a denial list. Firewall rules must be promptly updated following any security incidents, particularly those that permit dubious traffic into the network, to safeguard against various DoS and DDoS attacks.
