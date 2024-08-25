@@ -71,7 +71,7 @@ One security measure the team plans to implement to protect against brute force 
 2FA requires authentication via a password and also by confirming a one-time passcode (OTP) sent to either their email or phone. Once the user confirms their identity through their login credentials and the OTP, they will gain access to the system. Any malicious actor that attempts a brute force attack will not likely gain access to the system because it requires additional authentication. 
 
 -------
-# Analysis of network hardening]<a name="four">
+# Analysis of network hardening <a name="four">
 You are a security analyst working for a social media organization. The organization recently experienced a major data breach, which compromised the safety of their customers’ personal information, such as names and addresses. Your organization wants to implement strong network hardening practices that can be performed consistently to prevent attacks and breaches in the future. 
 
 # Part 1: Select up to three hardening tools and methods to implement (https://s.craft.me/3eTPLYSptlgdAx)
