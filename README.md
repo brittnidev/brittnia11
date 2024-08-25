@@ -111,6 +111,7 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 
 **Recover** affected systems to normal operation and restore systems data and/or assets that have been affected by an incident.
 
+# Incident report analysis
 - **Identify** Our organization recently faced a DDoS attack that disrupted the internal network for two hours. During this incident, network services became unresponsive due to an overwhelming influx of ICMP packets, preventing normal internal traffic from accessing network resources. The issue was resolved after the two-hour period.
 
 - **Protect** The incident management team conducted an audit of the systems, devices, and access policies related to the attack to identify security gaps. They discovered that a malicious attacker had obtained an intern's login credentials, which were then used to access data from our customer database. Preliminary findings indicate that some customer data was deleted from the database.
