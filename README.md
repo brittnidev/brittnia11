@@ -126,7 +126,7 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
   
 -------
 # Manage files with Linux commands <a name="six">
-- use the content of < a href="[Current file permissions](https://docs.google.com/document/d/1F3-8XQZsNagSzTkJwFzOGY5OHbGbMRtlb8GbmXE_gCc/template/preview?resourcekey=0-UUEu0EyFFvMf0SAipcel6w)"> document to determine the current permissions. 
+- use the content of < a name="[Current file permissions](https://docs.google.com/document/d/1F3-8XQZsNagSzTkJwFzOGY5OHbGbMRtlb8GbmXE_gCc/template/preview?resourcekey=0-UUEu0EyFFvMf0SAipcel6w)"> document to determine the current permissions. 
 - 
 - 
 
