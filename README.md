@@ -8,6 +8,7 @@ Cybersecurity Incident Reports
 3. [Apply OS hardening techniques](#three)
 4. [Analysis of network hardening](#four)
 5. [Use the NIST Cybersecurity Framework to respond to a security incident](#five)
+6. [Use Linux commands to manage file permissions](#six)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -124,3 +125,5 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 - **Recover** The team has disabled the intern's network account and provided training to interns and employees on securing their login credentials moving forward. Upper management has been notified of this incident and will reach out to our customers via mail to inform them about the data breach. Additionally, management will contact law enforcement and other relevant organizations as mandated by local laws.
   
 -------
+# Manage files with Linux commands <a name="six">
+
