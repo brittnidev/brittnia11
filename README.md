@@ -126,7 +126,11 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
   
 -------
 # Manage files with Linux commands <a name="six">
-- use the content of (https://docs.google.com/document/d/1F3-8XQZsNagSzTkJwFzOGY5OHbGbMRtlb8GbmXE_gCc/template/preview?resourcekey=0-UUEu0EyFFvMf0SAipcel6w) document to determine the current permissions. 
-- 
-- 
+- use the content of (https://docs.google.com/document/d/1F3-8XQZsNagSzTkJwFzOGY5OHbGbMRtlb8GbmXE_gCc/template/preview?resourcekey=0-UUEu0EyFFvMf0SAipcel6w) document to determine the current permissions.
+
+# Describe the command you can use to check permissions 
+- Using the Check file and directory details section of the File permissions in Linux template.
+- From the lab, take a screenshot of the Linux command you used. Or, type this command directly into the template.
+- Use either the output of this command in the lab or the content or the Current file permissions document to indicate the current permissions. If using the Current file permissions document, write these in the 10-character string that would be part of the command's output.
+
 
