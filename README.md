@@ -135,6 +135,38 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 ```
 ls -la /home/researcher2/projects
 ```
+-This command provides a detailed listing of files and directories in the specified path, including permissions, owners, groups, and other information
+
+# Describe the Permissions String
+- rwxrwxrwx // where 'r' stands for read, 'w' for write, and 'x' for execute.
+
+# Change File Permissions
+- Grant execute to the group
+- To change permissions the chmod command is used.
+so, for example:
+```
+chmod g+x /home/researcher2/projects/project_m.txt
+```
+This command adds execute permission (+x) for the group (g) on the specified file.
+
+# Change File Permissions on a Hidden File
+-Remove write permissions
+```
+chmod o-w /home/researcher2/projects/.project_x.txt
+```
+This command removes write permission (-w) for others (o) on the specified hidden file.
+
+# Change Directory Permissions
+- Grant execute permission to the group for the "drafts" directory:
+```
+chmod g+x /home/researcher2/projects/drafts
+```
+This command adds execute permission (+x) for the group (g) on the specified directory.
+
+
+ 
+
+
 
 
 
