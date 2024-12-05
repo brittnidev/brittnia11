@@ -7,8 +7,9 @@ Cybersecurity Incident Reports
 2. [Analyze network attacks using Wireshark](#two)
 3. [Apply OS hardening techniques](#three)
 4. [Analysis of network hardening](#four)
-5. [Use the NIST Cybersecurity Framework to respond to a security incident + Portfolio Project](#five)
+5. [Use the NIST Cybersecurity Framework to respond to a security incident activity + Portfolio Project #3](#five)
 6. [Use Linux commands to manage file permissions](#six)
+7. [Apply filters to SQL queries - Portfolio Project #4](#seven)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -174,4 +175,10 @@ chown (Change Owner): This command changes the ownership of a file or directory.
 chgrp (Change Group): This command specifically changes the group associated with a file or directory. For instance, chgrp groupname file.txt sets the group of "file.txt" to "groupname".
 
 These commands are vital for maintaining security and ensuring that only authorized users can access or modify files, which is particularly important in multi-user environments. Proper management of file permissions helps protect sensitive data and maintain system integrity.
+
 -------
+# Portfolio Activity: Apply filters to SQL queries files with Linux commands <a name="seven">
+- use the content of (https://docs.google.com/document/d/1jRgoPi-qYuspdFpJGn2FEQIySm15KB8xfdCdMEYHs-Y/edit?usp=sharing) and (https://docs.google.com/document/d/1FvBXjHx2e4zscXql4JS-_9aQE0on4mB5znxJghF4nAM/edit?usp=sharing)
+
+# Project Description: Describe the command you can use to check permissions 
+- In this scenario, my role is to investigate potential security issues within the organization by analyzing data from two tables, "log_in_attempts" and "employees." Through SQL queries, I aim to retrieve specific data to assess security concerns, such as after-hours login attempts, login attempts on specific dates, unauthorized login attempts from outside Mexico, and details of employees based on their department and location. Retrieve after hours failed login attempts. To investigate potential security incidents that occurred after business hours, I will query the "log_in_attempts" table using SQL filters. Specifically, I will retrieve all records of failed login attempts that occurred after 18:00 (6:00 PM).
