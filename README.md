@@ -182,3 +182,9 @@ These commands are vital for maintaining security and ensuring that only authori
 
 # Project Description: Describe the command you can use to check permissions 
 - In this scenario, my role is to investigate potential security issues within the organization by analyzing data from two tables, "log_in_attempts" and "employees." Through SQL queries, I aim to retrieve specific data to assess security concerns, such as after-hours login attempts, login attempts on specific dates, unauthorized login attempts from outside Mexico, and details of employees based on their department and location. Retrieve after hours failed login attempts. To investigate potential security incidents that occurred after business hours, I will query the "log_in_attempts" table using SQL filters. Specifically, I will retrieve all records of failed login attempts that occurred after 18:00 (6:00 PM).
+
+# Task
+- Your task is to examine the organization’s data in their employees and log_in_attempts tables. You’ll need to use SQL filters to retrieve records from different datasets and investigate the potential security issues.
+
+
+
