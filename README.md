@@ -185,6 +185,24 @@ These commands are vital for maintaining security and ensuring that only authori
 
 # Task
 - Your task is to examine the organization’s data in their employees and log_in_attempts tables. You’ll need to use SQL filters to retrieve records from different datasets and investigate the potential security issues.
+  
+```
+SQL Query:
+SELECT *
+FROM log_in_attempts
+WHERE success = 0 AND TIME(login_time) > '18:00:00';
 
+Retrieve login attempts on specific dates
+To investigate a specific event, I will query the "log_in_attempts" table to retrieve login attempts that occurred on 2022-05-09 or 2022-05-08.
+```
 
+```
+SQL Query:
+SELECT *
+FROM log_in_attempts
+WHERE login_date IN ('2022-05-08', '2022-05-09');
+
+Retrieve login attempts outside of Mexico
+To examine suspicious login attempts that occurred outside of Mexico, I will use SQL filters to retrieve records from the "log_in_attempts" table where the country is not Mexico (both "MEX" and "MEXICO" should be considered).
+```
 
