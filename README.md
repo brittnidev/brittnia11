@@ -232,6 +232,6 @@ SELECT *
 FROM employees
 WHERE department != 'Information Technology';
 ```
-Summary
-Through SQL queries, I've conducted a comprehensive investigation into potential security issues, including after-hours login attempts, suspicious login attempts on specific dates, login attempts from outside Mexico, and employee details based on department and location. These queries assist in enhancing the organization's security by identifying and addressing potential vulnerabilities and risks.
+# Summary
+Using SQL queries, I have performed an extensive investigation into potential security concerns, including after-hours login attempts, suspicious logins on specific dates, attempts from outside Mexico, and employee information based on their department and location. These queries help strengthen the organization's security by identifying and mitigating potential vulnerabilities and risks.
 
