@@ -10,6 +10,7 @@ Cybersecurity Incident Reports
 5. [Use the NIST Cybersecurity Framework to respond to a security incident activity + Portfolio Project #3](#five)
 6. [Use Linux commands to manage file permissions](#six)
 7. [Apply filters to SQL queries - Portfolio Project #4](#seven)
+8. [Vulnerability Assessment Report#5](#eight)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -235,3 +236,35 @@ WHERE department != 'Information Technology';
 # Summary
 Using SQL queries, I have performed an extensive investigation into potential security concerns, including after-hours login attempts, suspicious logins on specific dates, attempts from outside Mexico, and employee information based on their department and location. These queries help strengthen the organization's security by identifying and mitigating potential vulnerabilities and risks.
 
+-------
+# Vulnerability Assessment Report <a name="eight">
+     # Vulnerability Assessment Report
+
+     ## System Description
+     The e-commerce company's database server is a remote resource that stores valuable customer data, including personal and financial information. The server has been publicly accessible since the company's launch, allowing employees to query data remotely from various global locations. This open access creates a significant attack surface that malicious actors could exploit, potentially leading to data breaches, unauthorized access, and service disruptions.
+
+     ## Scope
+     This vulnerability assessment focuses on the confidentiality, integrity, and availability of the data stored on the remote database server. It excludes physical security measures related to the server's infrastructure.
+
+     ## Purpose
+     The purpose of this vulnerability assessment is to identify and analyze risks associated with the publicly accessible database server. Securing this server is critical to protect sensitive customer information, ensure compliance with data protection regulations, and maintain customer trust. A compromised server could lead to significant operational disruptions, financial loss, and damage to the company’s reputation.
+
+     ## Risk Assessment
+
+     | Threat Source                   | Threat Event                           | Likelihood (1-3) | Severity (1-3) | Risk Score (1-9) |
+     |---------------------------------|----------------------------------------|------------------|----------------|------------------|
+     | Unauthorized access             | SQL Injection Attack                   | 3                | 3              | 9                |
+     | Data exfiltration               | Data Breach via Misconfigured Access   | 2                | 3              | 6                |
+     | Denial of Service (DoS) attacks | Service Disruption via DoS Attack      | 2                | 2              | 4                |
+
+     ## Approach
+     The selected threat sources and events reflect the most pressing vulnerabilities associated with the open database server. Unauthorized access is particularly significant due to the potential for data breaches, which can lead to severe financial and reputational damage. Additionally, the risk of data exfiltration and DoS attacks could disrupt business operations and hinder the company's ability to serve its customers effectively.
+
+     ## Remediation
+     To mitigate the identified risks, the following security controls should be implemented:
+
+     1. **Principle of Least Privilege**: Limit access to the database server to only those employees who require it for their roles, thereby reducing unauthorized access risks.
+     
+     2. **Multi-Factor Authentication (MFA)**: Implement MFA for all users accessing the database to ensure that even if credentials are compromised, additional verification is required for access.
+
+     3. **Defense in**
