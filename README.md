@@ -10,7 +10,7 @@ Cybersecurity Incident Reports
 5. [Use the NIST Cybersecurity Framework to respond to a security incident activity + Portfolio Project #3](#five)
 6. [Use Linux commands to manage file permissions](#six)
 7. [Apply filters to SQL queries - Portfolio Project #4](#seven)
-8. [Vulnerability Assessment Report#5](#eight)
+8. [Vulnerability Assessment Report Portfolio Project #5](#eight)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -237,7 +237,7 @@ WHERE department != 'Information Technology';
 Using SQL queries, I have performed an extensive investigation into potential security concerns, including after-hours login attempts, suspicious logins on specific dates, attempts from outside Mexico, and employee information based on their department and location. These queries help strengthen the organization's security by identifying and mitigating potential vulnerabilities and risks.
 
 -------
-# Vulnerability Assessment Report <a name="eight">
+# Vulnerability Assessment Report Portfolio Project #5 <a name="eight">
      # Vulnerability Assessment Report
 
      ## System Description
