@@ -178,7 +178,7 @@ chgrp (Change Group): This command specifically changes the group associated wit
 These commands are vital for maintaining security and ensuring that only authorized users can access or modify files, which is particularly important in multi-user environments. Proper management of file permissions helps protect sensitive data and maintain system integrity.
 
 -------
-# Portfolio Activity: Apply filters to SQL queries files with Linux commands <a name="seven">
+# Portfolio Activity #4: Apply filters to SQL queries files with Linux commands <a name="seven">
 - use the content of (https://docs.google.com/document/d/1jRgoPi-qYuspdFpJGn2FEQIySm15KB8xfdCdMEYHs-Y/edit?usp=sharing) and (https://docs.google.com/document/d/1FvBXjHx2e4zscXql4JS-_9aQE0on4mB5znxJghF4nAM/edit?usp=sharing)
 
 # Project Description: Describe the command you can use to check permissions 
@@ -237,7 +237,7 @@ WHERE department != 'Information Technology';
 Using SQL queries, I have performed an extensive investigation into potential security concerns, including after-hours login attempts, suspicious logins on specific dates, attempts from outside Mexico, and employee information based on their department and location. These queries help strengthen the organization's security by identifying and mitigating potential vulnerabilities and risks.
 
 -------
-# Vulnerability Assessment Report Portfolio Project #5 <a name="eight">
+# Portfolio Activity #5: Vulnerability Assessment Report <a name="eight">
      # Vulnerability Assessment Report
 
      ## System Description
