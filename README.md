@@ -11,6 +11,7 @@ Cybersecurity Incident Reports
 6. [Use Linux commands to manage file permissions](#six)
 7. [Apply filters to SQL queries - Portfolio Project #4](#seven)
 8. [Vulnerability Assessment Report Portfolio Project #5](#eight)
+9. [Activity: Identify the attack vectors of a USB drive](#nine)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -268,3 +269,18 @@ Using SQL queries, I have performed an extensive investigation into potential se
      2. **Multi-Factor Authentication (MFA)**: Implement MFA for all users accessing the database to ensure that even if credentials are compromised, additional verification is required for access.
 
      3. **Defense in**
+-------
+# Activity: Identify the attack vectors of a USB drive <a name="nine">
+# Part 1: Scenerio and Instructions
+In this scenario, a security team member at Rhetorical Hospital discovers a USB stick in the parking lot, branded with the hospital's logo. Curious, they bring it to their office, where virtualization software is available for safe examination. Upon connecting the USB drive, they find a mix of personal and work-related files belonging to Jorge Bailey, the human resource manager. The task involves analyzing the contents of the USB drive, considering the risks associated with USB baiting attacks, and completing a template by providing insights into the types of information stored, how it could be exploited by an attacker, and potential controls to mitigate such risks.
+# Part 2: Response
+# Contents
+The USB drive contains a mix of personal and work-related files belonging to Jorge Bailey, the human resource manager at Rhetorical Hospital. Personal folders include family and pet photos, while work-related files feature a new hire letter and an employee shift schedule. This blend of information raises concerns about the potential exposure of personally identifiable information (PII).
+
+# Attacker Mindset
+An attacker could exploit the information on the USB drive to target Jorge or his colleagues. By accessing the new hire letter and employee shift schedule, they could impersonate employees or disrupt hospital operations. Additionally, the personal photos could serve as leverage for social engineering attacks, making it easier for the attacker to manipulate Jorge or others at the hospital.
+
+# Risk Analysis
+To mitigate USB baiting attacks, organizations should implement strict policies regarding the use of external storage devices. Technical controls, such as disabling USB ports on critical systems, can prevent unauthorized access. Operationally, conducting regular cybersecurity training can raise awareness about the risks of unknown USB drives. Furthermore, managerial controls should ensure that employees report any found devices to the IT department for safe handling, rather than plugging them into workstations.
+
+-------
