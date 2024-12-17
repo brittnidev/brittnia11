@@ -343,3 +343,4 @@ All rights reserved
 - Which two clues in the message header indicate to you that this is a phishing attempt?
 1. The sender is using a different domain. (The sender's email is from gmail.com instead of a corporate domain.)
 2. The subject line appears to be a reply. (The "RE:" suggests it is a reply, which may mislead the recipient into thinking it is from a trusted source.)
+-------
