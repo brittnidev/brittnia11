@@ -338,7 +338,7 @@ All rights reserved
 - The title of the group (Using a familiar term like "Execs" makes it sound official.)
 - The download options for major operating systems (Providing options for Mac®, Windows®, and Android™ suggests that the software is legitimate and widely applicable.)
 
-- # Part 3: Decision Making
+# Part 3: Decision Making
 - Based on the identified signs of phishing, I recommend that this email be quarantined to prevent any potential security breach.
 - Which two clues in the message header indicate to you that this is a phishing attempt?
 1. The sender is using a different domain. (The sender's email is from gmail.com instead of a corporate domain.)
