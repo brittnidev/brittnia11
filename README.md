@@ -12,6 +12,7 @@ Cybersecurity Incident Reports
 7. [Apply filters to SQL queries - Portfolio Project #4](#seven)
 8. [Vulnerability Assessment Report Portfolio Project #5](#eight)
 9. [Activity: Identify the attack vectors of a USB drive](#nine)
+10. [Filter Malicious Emails](#ten)
 
 -------
 # Cybersecurity incident report network traffic analysis <a name="one">
@@ -284,3 +285,24 @@ An attacker could exploit the information on the USB drive to target Jorge or hi
 To mitigate USB baiting attacks, organizations should implement strict policies regarding the use of external storage devices. Technical controls, such as disabling USB ports on critical systems, can prevent unauthorized access. Operationally, conducting regular cybersecurity training can raise awareness about the risks of unknown USB drives. Furthermore, managerial controls should ensure that employees report any found devices to the IT department for safe handling, rather than plugging them into workstations.
 
 -------
+# Filter Malicious Emails<a name="ten">
+# Part 1: Scenerio and Instructions
+In this activity, you are acting as a security analyst at Imaginary Bank, tasked with investigating a suspicious email that an executive received. The email, purportedly from the board, requests the executive to install collaboration software called ExecuTalk. The executive is skeptical because this software was not discussed in the last board meeting and has forwarded the email for verification. Your goal is to analyze the email for signs of phishing and decide whether it should be quarantined.
+
+# Review the Email Content
+- Sender's Email: The email is from imaginarybank@gmail.org, which raises suspicion since official communications should come from a company domain (e.g., @imaginarybank.com).
+- Subject Line: The subject contains grammatical errors ("You are been added to an ecsecutiv's groups"), which is a common sign of phishing emails.
+Urgency: The email creates a sense of urgency by stating that the invitation will expire in 48 hours, a tactic often used in phishing attacks to prompt quick action without careful consideration.
+- Spelling Errors: There are multiple typos in the email, such as "Conglaturations" and "Downlode," which are uncharacteristic of formal communications from a professional organization.
+
+# Examine the Email Header
+- Check the sender's domain: The use of a personal email account (gmail.com) instead of a corporate domain is a red flag. Legitimate emails from the organization should originate from a domain associated with Imaginary Bank.
+- Verify the “To” field: Ensure that the recipient’s address matches the expected corporate address.
+
+# Determine Phishing Indicators
+- Inconsistencies: The lack of prior discussion about ExecuTalk in board meetings.
+- Domain Check: The sender’s domain does not match the corporate entity, suggesting possible impersonation.
+- Request for Software Download: Legitimate organizations typically do not request downloads via email, especially from personal accounts.
+
+# Decision Making
+- Based on the identified signs of phishing, I recommend that this email be quarantined to prevent any potential security breach.
