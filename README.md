@@ -304,5 +304,23 @@ Urgency: The email creates a sense of urgency by stating that the invitation wil
 - Domain Check: The sender’s domain does not match the corporate entity, suggesting possible impersonation.
 - Request for Software Download: Legitimate organizations typically do not request downloads via email, especially from personal accounts.
 
-# Decision Making
+# Part 2: Review the Message Body for Clues
+```
+Congratulations! You have been added to a collaboration group ‘Execs.’
+Downlode ExecuTalk to your computer.
+Mac® | Windows® | Android™ 
+You're team needs you! This invitation will expire in 48 hours so act quickly.
+Sincerely,
+ExecuTalk©
+All rights reserved
+```
+# What details make this message appear legitimate?
+- The invitation time limit (Creates a sense of urgency to act quickly.)
+- The title of the group (Using a familiar term like "Execs" makes it sound official.)
+- The download options for major operating systems (Providing options for Mac®, Windows®, and Android™ suggests that the software is legitimate and widely applicable.)
+
+- # Part 3: Decision Making
 - Based on the identified signs of phishing, I recommend that this email be quarantined to prevent any potential security breach.
+- Which two clues in the message header indicate to you that this is a phishing attempt?
+1. The sender is using a different domain. (The sender's email is from gmail.com instead of a corporate domain.)
+2. The subject line appears to be a reply. (The "RE:" suggests it is a reply, which may mislead the recipient into thinking it is from a trusted source.)
