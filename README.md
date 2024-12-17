@@ -294,10 +294,29 @@ In this activity, you are acting as a security analyst at Imaginary Bank, tasked
 - Subject Line: The subject contains grammatical errors ("You are been added to an ecsecutiv's groups"), which is a common sign of phishing emails.
 Urgency: The email creates a sense of urgency by stating that the invitation will expire in 48 hours, a tactic often used in phishing attacks to prompt quick action without careful consideration.
 - Spelling Errors: There are multiple typos in the email, such as "Conglaturations" and "Downlode," which are uncharacteristic of formal communications from a professional organization.
-
+```
+From: imaginarybank@gmail.org
+Sent: Saturday, December 21, 2019  15:05:05
+To: cfo@imaginarybank.com
+Subject:  RE: You are been added to an ecsecutiv's groups
+Conglaturations! You have been added to a collaboration group ‘Execs.’
+Downlode ExecuTalk to your computer.
+Mac® | Windows® | Android™ 
+You're team needs you! This invitation will expire in 48 hours so act quickly.
+Sincerely,
+ExecuTalk©
+All rights reserved.
+```
 # Examine the Email Header
 - Check the sender's domain: The use of a personal email account (gmail.com) instead of a corporate domain is a red flag. Legitimate emails from the organization should originate from a domain associated with Imaginary Bank.
 - Verify the “To” field: Ensure that the recipient’s address matches the expected corporate address.
+
+```
+From: imaginarybank@gmail.org
+Sent: Saturday, December 21, 2019  15:05:05
+To: cfo@imaginarybank.com
+Subject:  RE: You are been added to an ecsecutiv's groups
+```
 
 # Determine Phishing Indicators
 - Inconsistencies: The lack of prior discussion about ExecuTalk in board meetings.
